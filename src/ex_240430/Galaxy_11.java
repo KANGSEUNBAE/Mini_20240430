@@ -1,13 +1,10 @@
 package ex_240430;
 
-public class Galaxy_11 implements GalaxyPhone {
+public class Galaxy_11 extends abstract_phone implements GalaxyPhone {
 
 	@Override
 	public void call(String callMember) {
-		
 		System.out.println(callMember + "에게 전화걸기");
-
-		
 	}
 
 	@Override
